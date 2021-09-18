@@ -1,0 +1,334 @@
+/* .top {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.box{
+
+}
+.innerbox{ 
+    width: 600px;
+   
+
+    display: inline-flex;
+    flex-flow: wrap row ;
+}
+.box1{  
+    margin-bottom: 35px;
+    
+
+}
+.box2{
+    margin-left: 200px;
+}
+.box3{
+    
+    margin-bottom: 35px;
+
+}
+.box4{
+    margin-left: 200px;
+}
+
+
+.input1{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+}
+.button{margin-top: 50px;
+    margin-left: 300px;
+   
+}
+.btn{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    background:#1E90FF;
+    width: 160px;
+    padding: 17px;
+    text-align: center;
+    color:#fff;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
+
+
+
+
+ */
+
+ @font-face {
+    font-family: Poppins;
+    src: url(../fonts/poppins.semibold.ttf);
+
+}
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url(../fonts/Montserrat-Medium.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Montserrat-regular';
+    src: url(../fonts/Montserrat-Regular.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'FuturaHeavyBT';
+    src: url(../fonts/FuturaHeavyBT.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Sulatty';
+    src: url(../fonts/Sulatty.ttf) format('truetype');
+}
+
+body {
+    background: #e8eaff;
+}
+
+ /* contact form left side's css start */
+
+h1, h2, h3, h4, h5 {
+    font-family: FuturaHeavyBT;
+}
+
+.contactLeftNums p {
+    font-family: 'Montserrat-Medium';
+    font-size: 14px;
+}
+
+ .contactLeftSide {
+    background: #212529;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+    padding: 30px;
+    min-height: 100%;
+}
+
+.contactLeftTxt p {
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: lighter;
+    font-family: Montserrat-Medium;
+}
+
+.contactLeftNums p a {
+    color: white;
+    text-decoration: none;
+}
+
+.contactLeftNums p i {
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.contactLeftInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}.bigCrcl, .smallCrcl {
+    position: absolute;
+}
+
+.bigCrcl {
+    bottom: -100px;
+    right: -60px;
+    width: 55%;
+    aspect-ratio: 1 / 1;
+    background: #b02a37;
+    border-radius: 50%;
+}
+
+.smallCrcl {
+    width: 22%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    background: white;
+    bottom: 23%;
+    right: 16%;
+    opacity: 0.8;
+}
+
+.contactLeftIcon {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.contactLeftIcon i {
+    /* padding: 13px; */
+    text-align: center;
+    border-radius: 50%;
+    /* margin: 4px; */
+    font-size: 21px;
+    transition: 0.15s;
+}
+
+.contactLeftIcon i:hover {
+    /* background: #a72633; */
+}
+
+.bigCrcl, .smallCrcl {
+    position: absolute;
+}
+
+.bigCrcl {
+    bottom: -100px;
+    right: -60px;
+    width: 56%;
+    aspect-ratio: 1 / 1;
+    background: #b02a37;
+    border-radius: 50%;
+}
+
+.smallCrcl {
+    width: 24%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    background: white;
+    bottom: 11%;
+    right: 16%;
+    opacity: 0.8;
+}
+
+.contactLeftIcon {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.contactLeftIcon a:hover {
+    background: #a72633;
+}
+
+.contactLeftIcon a {
+    text-align: center;
+    padding: 13px;
+    border-radius: 50%;
+    margin: 4px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.15s;
+}
+
+
+ /* contact form left side's css ends */
+ 
+ /* contact form right side's css starts */
+
+
+.contactTopForm {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.formBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.formBox input {
+    width: 75%;
+    border: none;
+    border-bottom: 2px solid #6f6e6e5c;
+    outline: none;
+    color: #9d9d9d;
+    padding-top: 4px;
+    padding-bottom: 7px;
+    font-weight: 500;
+}
+
+.formBox label {
+    font-size: 13px;
+    font-weight: 500;
+    color: #9d9d9d;
+}
+
+.formBox input:focus {
+    color: #a72633;
+    border-bottom: 2px solid #a72633;
+}
+
+.contactMiddleBox > p {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* css for radio btns start */
+.radioInput {
+    display: none;
+}
+
+.radiolable {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.radioCrcl {
+    border: 1px solid #212529;
+    height: 20px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.radioCrcl i {
+    font-size: 12px;
+    color: white;
+}
+
+.radioInput:checked + .radioCrcl{
+    background-color: #212529;
+}
+
+.radioBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textArea textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #6f6e6e5c;
+    outline: none;
+    font-weight: 500;
+    color: #212529;
+    transition: 0.2s;
+}
+
+.textArea p {font-size: 13px;font-weight: 500;}
+
+.formSbmtBtn {text-align: end;}
+
+.formSbmtBtn input {
+    border: none;
+    background: #b02a37;
+    color: white;
+    padding: 13px 23px;
+    border-radius: 0.25rem;
+}
+
+/* css for radio btns start */
+
+ /* contact form right side's css ends */
