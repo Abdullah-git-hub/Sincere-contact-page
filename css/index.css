@@ -323,10 +323,15 @@ h1, h2, h3, h4, h5 {
 
 .formSbmtBtn input {
     border: none;
-    background: #b02a37;
+    background: #dc3545;
     color: white;
     padding: 13px 23px;
     border-radius: 0.25rem;
+    transition: 0.2s;
+}
+
+.formSbmtBtn input:hover {
+    background: #bb2d3b;
 }
 
 /* css for radio btns start */
